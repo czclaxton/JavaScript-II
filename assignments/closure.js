@@ -1,6 +1,18 @@
 // ==== Challenge 1: Write your own closure ====
 // Write a simple closure of your own creation.  Keep it simple!
 
+function myFunctionX() {
+  let myVariableX = 'X';
+  
+  function myFunctionY() {
+    console.log(myVariableX);
+  }
+  
+  return myFunctionY;
+}
+
+var returnClosure = myFunctionX();
+returnClosure();
 
 /* STRETCH PROBLEMS, Do not attempt until you have completed all previous tasks for today's project files */
 
